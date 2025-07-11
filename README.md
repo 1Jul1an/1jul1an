@@ -49,6 +49,33 @@ In projects, I prefer to take on the role between tech & organization: from requ
 
 ---
 
+## 📦 My Tech Stack
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat&logo=svelte&logoColor=white)
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Serverless](https://img.shields.io/badge/Serverless-FD5750?style=flat&logo=serverless&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+
+![Requirements Engineering](https://img.shields.io/badge/ReqEng-0052CC?style=flat&logo=datadog&logoColor=white)
+![IT Governance](https://img.shields.io/badge/IT%20Governance-2C3539?style=flat)
+![Documentation](https://img.shields.io/badge/Documentation-0078D4?style=flat&logo=readthedocs&logoColor=white)
+
+---
+
+## 🌍 Where I'm From
+<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+src="https://www.openstreetmap.org/export/embed.html?bbox=10.296%2C51.781%2C10.366%2C51.831&layer=mapnik&marker=51.806%2C10.331" 
+style="border:1px solid black"></iframe>
+<br/>
+<small><a href="https://www.openstreetmap.org/?mlat=51.806&mlon=10.331#map=14/51.806/10.331">View Larger Map</a></small>
+
+---
+
 ## Dev Card
 <a href="https://app.daily.dev/1jul1an"><img src="https://api.daily.dev/devcards/v2/16ml9OOXPsT0LJtjSWX0N.png?type=wide&r=k21" width="652" alt="Julian's Dev Card"/></a>
 
