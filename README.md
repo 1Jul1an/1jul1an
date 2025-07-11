@@ -68,11 +68,8 @@ In projects, I prefer to take on the role between tech & organization: from requ
 ---
 
 ## 🌍 Where I'm From
-<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
-src="https://www.openstreetmap.org/export/embed.html?bbox=10.296%2C51.781%2C10.366%2C51.831&layer=mapnik&marker=51.806%2C10.331" 
-style="border:1px solid black"></iframe>
-<br/>
-<small><a href="https://www.openstreetmap.org/?mlat=51.806&mlon=10.331#map=14/51.806/10.331">View Larger Map</a></small>
+[![Map](https://www.openstreetmap.org/export/embed.html?bbox=10.296,51.781,10.366,51.831&layer=mapnik&marker=51.806,10.331)](https://www.openstreetmap.org/?mlat=51.806&mlon=10.331#map=14/51.806/10.331)
+> 📍 Saxony Anhalt, Germany
 
 ---
 
