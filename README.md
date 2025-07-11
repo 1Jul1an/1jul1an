@@ -49,10 +49,7 @@ In projects, I prefer to take on the role between tech & organization: from requ
 
 ---
 
-## 🎨 Banner & Dev Card
-
-<img src="https://avatars.githubusercontent.com/u/168366592?v=4" alt="Banner" />
-
+## Dev Card
 <a href="https://app.daily.dev/1jul1an"><img src="https://api.daily.dev/devcards/v2/16ml9OOXPsT0LJtjSWX0N.png?type=wide&r=k21" width="652" alt="Julian's Dev Card"/></a>
 
 ---
@@ -63,5 +60,3 @@ In projects, I prefer to take on the role between tech & organization: from requ
 [![Mail](https://img.shields.io/badge/E-Mail-333333?style=flat&logo=gmail&logoColor=white)](mailto:JulianBusinessAdress@gmail.com)
 
 ---
-
-> **Today is [insert weekday here]**
