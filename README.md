@@ -21,7 +21,7 @@ In Projekten übernehme ich bevorzugt die Rolle zwischen Technik & Organisation:
 
 ## 🚀 Projekte (Auswahl)
 
-- 🎯 **[Storyline RP – Webapp](https://github.com/1Jul1an/storyline-web)**  
+- 🎯 **[Storyline RP – Webapp (2025)](https://github.com/1Jul1an/storyline-web)**  
   Moderne Landingpage für ein authentisches FiveM-RP-Projekt.  
   _Next.js · Tailwind · Vercel_
 
