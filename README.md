@@ -23,22 +23,6 @@ In projects, I prefer to take on the role between tech & organization: from requ
 
 ---
 
-## 🚀 Selected Projects
-
-- 🎯 **[Storyline RP – Web App (2025)](https://github.com/1Jul1an/storyline-web)**  
-  Modern landing page for an authentic FiveM RP project.  
-  _Next.js · Tailwind · Vercel_
-
-- 📈 **[Cloud BI App (2025)](https://github.com/1Jul1an/cloud-based-business-intelligence-app)**  
-  Analytics app with star schema, real-time aggregation & AWS architecture.  
-  _Svelte · Chart.js · Serverless · MariaDB_
-
-- 🏭 **[Cloud WMS (2024–2025)](https://github.com/1Jul1an/cloud-based-wms-app)**  
-  Digital warehouse management on AWS with RBAC and API Gateway.  
-  _Next.js · Serverless · Node.js · MariaDB_
-
----
-
 ## 📊 GitHub Stats
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=1Jul1an&theme=dracula&hide_border=true)](https://git.io/streak-stats)
