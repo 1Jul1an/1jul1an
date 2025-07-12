@@ -13,6 +13,10 @@ jobs:
       contents: write
 
     steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
@@ -53,7 +57,7 @@ jobs:
               1Jul1an/storylinewebde,
               1Jul1an/devdrops,
               1Jul1an/linkshelf
-              
+
       - name: Auto commit
         run: |
           git config user.name github-actions
