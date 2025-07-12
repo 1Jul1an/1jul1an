@@ -1,0 +1,50 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 8,20 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: 1Jul1an
+          commits_authoring: 1Jul1an
+
+          template: classic
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          config_timezone: Europe/Berlin
+          config_twemoji: yes
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: bytes-size, percentage, lines
+          plugin_languages_limit: 8
+          plugin_languages_recent_days: 14
+
+          plugin_lines: yes
+          plugin_lines_sections: base
+          plugin_lines_repositories_limit: 4
+
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_user: 1Jul1an
+          plugin_wakatime_sections: time, languages, os, editors, languages-graphs
+          plugin_wakatime_days: 180
+
+          plugin_sponsorships: yes
+          plugin_sponsorships_sections: amount
