@@ -27,6 +27,9 @@ jobs:
           config_timezone: Europe/Berlin
           config_twemoji: yes
 
+          plugin_introduction: yes
+          plugin_introduction_title: About me
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
@@ -40,9 +43,22 @@ jobs:
           plugin_lines_sections: base
           plugin_lines_repositories_limit: 4
 
-          plugin_achievements: yes
-          plugin_achievements_display: compact
           plugin_calendar: yes
-          plugin_code: yes
           plugin_habits: yes
 
+          plugin_repositories: yes
+          plugin_repositories_featured: |
+              1Jul1an/cloud-based-business-intelligence-app,
+              1Jul1an/cloud-based-wms-app,
+              1Jul1an/storylinewebde,
+              1Jul1an/devdrops,
+              1Jul1an/linkshelf,
+              1Jul1an/<platzhalter-repo-name>
+
+      - name: Auto commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add github-metrics.svg
+          git commit -m "🔄 Update Metrics"
+          git push
