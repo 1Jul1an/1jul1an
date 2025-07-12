@@ -52,9 +52,8 @@ jobs:
               1Jul1an/cloud-based-wms-app,
               1Jul1an/storylinewebde,
               1Jul1an/devdrops,
-              1Jul1an/linkshelf,
-              1Jul1an/<platzhalter-repo-name>
-
+              1Jul1an/linkshelf
+              
       - name: Auto commit
         run: |
           git config user.name github-actions
