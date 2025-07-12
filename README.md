@@ -4,7 +4,7 @@
 
 
 <!-- GitHub Metrics Section -->
-<img src="/metrics.svg" alt="GitHub Metrics" />
+<img src="/github-metrics.svg" alt="GitHub Metrics" />
 
 ## About Me
 
