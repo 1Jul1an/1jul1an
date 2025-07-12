@@ -40,5 +40,9 @@ jobs:
           plugin_lines_sections: base
           plugin_lines_repositories_limit: 4
 
-          plugin_sponsorships: yes
-          plugin_sponsorships_sections: amount
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_calendar: yes
+          plugin_code: yes
+          plugin_habits: yes
+
