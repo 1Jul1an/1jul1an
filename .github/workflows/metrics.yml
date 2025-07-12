@@ -56,7 +56,8 @@ jobs:
               1Jul1an/cloud-based-wms-app,
               1Jul1an/storylinewebde,
               1Jul1an/devdrops,
-              1Jul1an/linkshelf
+              1Jul1an/linkshelf,
+              1Jul1an/promptboxui
 
           plugin_stargazers: yes
           plugin_stargazers_worldmap: yes
