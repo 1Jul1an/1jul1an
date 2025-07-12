@@ -2,6 +2,10 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=1Jul1an&style=flat&color=gray)
 
+
+<!-- GitHub Metrics Section -->
+<img src="/metrics.svg" alt="GitHub Metrics" />
+
 ## About Me
 
 I'm Julian – currently in the final semester of my Business Informatics studies and active in various software projects for several years.  
