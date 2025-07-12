@@ -62,12 +62,3 @@ jobs:
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GEODB_TOKEN }}
 
-
-      - name: Auto commit
-        run: |
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add github-metrics.svg
-            git diff --cached --quiet || git commit -m "Update Metrics"
-            git push
-
