@@ -58,6 +58,11 @@ jobs:
               1Jul1an/devdrops,
               1Jul1an/linkshelf
 
+          plugin_stargazers: yes
+          plugin_stargazers_worldmap: yes
+          plugin_stargazers_worldmap_token: ${{ secrets.GEODB_TOKEN }}
+
+
       - name: Auto commit
         run: |
           git config user.name github-actions
