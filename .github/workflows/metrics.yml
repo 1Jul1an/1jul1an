@@ -25,7 +25,7 @@ jobs:
           user: 1Jul1an
           commits_authoring: 1Jul1an
 
-          template: classic
+          template: terminal
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_timezone: Europe/Berlin
@@ -54,6 +54,8 @@ jobs:
           plugin_repositories_featured: |
               1Jul1an/cloud-based-business-intelligence-app,
               1Jul1an/cloud-based-wms-app,
+              1Jul1an/filesort,
+              1Jul1an/wordsearch,
               1Jul1an/storylinewebde,
               1Jul1an/devdrops,
               1Jul1an/linkshelf,
