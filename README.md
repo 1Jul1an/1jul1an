@@ -55,17 +55,6 @@ In projects, I prefer to take on the role between tech & organization: from requ
 
 ---
 
-## 🌍 Where I'm From
-[![Map](https://www.openstreetmap.org/export/embed.html?bbox=10.296,51.781,10.366,51.831&layer=mapnik&marker=51.806,10.331)](https://www.openstreetmap.org/?mlat=51.806&mlon=10.331#map=14/51.806/10.331)
-> 📍 Saxony Anhalt, Germany
-
----
-
-## Dev Card
-<a href="https://app.daily.dev/1jul1an"><img src="https://api.daily.dev/devcards/v2/16ml9OOXPsT0LJtjSWX0N.png?type=wide&r=k21" width="652" alt="Julian's Dev Card"/></a>
-
----
-
 ## 💬 Contact
 
 [![Discord - TBA](https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white)](#)  
