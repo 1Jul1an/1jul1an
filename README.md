@@ -8,7 +8,7 @@
 
 ## About Me
 
-I'm Julian – currently in the final semester of my Business Informatics studies and active in various software projects for several years.  
+I’m Julian – a Bachelor of Science in Information Systems graduate, bridging the gap between business strategy and technical implementation, and active in various software projects for several years.  
 My roots lie in web development, API design, and database design. Today, I focus more on technical structures, interface management, architecture, and documentation.
 
 In projects, I prefer to take on the role between tech & organization: from requirements analysis to operational implementation.
