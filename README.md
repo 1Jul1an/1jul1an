@@ -29,12 +29,6 @@ In projects, I prefer to take on the role between tech & organization: from requ
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1Jul1an&layout=compact&theme=dracula&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
-<p>
-  <img width="420" src="https://github-readme-stats.vercel.app/api?username=1Jul1an&count_private=true&show_icons=true&title_color=00FFB6&text_color=ffffff&icon_color=00FFB6&hide_border=true&bg_color=282a36&layout=compact" />
-</p>
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=1Jul1an&theme=dracula&margin-w=15&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
-
 ---
 
 ## 📦 My Tech Stack
