@@ -42,6 +42,9 @@ jobs:
           plugin_languages_details: bytes-size, percentage, lines
           plugin_languages_limit: 8
           plugin_languages_recent_days: 14
+          plugin_languages_skipped: |
+              1Jul1an/next.js,
+              1Jul1an/wordsearch
 
           plugin_lines: yes
           plugin_lines_sections: base
