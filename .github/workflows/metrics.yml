@@ -1,23 +1,31 @@
 name: Metrics
+
 on:
   schedule:
     - cron: "0 8,20 * * *"
   workflow_dispatch:
   push:
-    branches: ["main"]
+    branches:
+      - main
+
+concurrency:
+  group: metrics-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     permissions:
       contents: write
 
     steps:
-
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - uses: lowlighter/metrics@latest
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -28,6 +36,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: yes
+
           config_timezone: Europe/Berlin
           config_twemoji: yes
 
@@ -42,25 +51,19 @@ jobs:
           plugin_languages_details: bytes-size, percentage, lines
           plugin_languages_limit: 8
           plugin_languages_recent_days: 14
-          plugin_languages_skipped: |
-              1Jul1an/next.js,
-              1Jul1an/wordsearch
+          plugin_languages_skipped: 1Jul1an/next.js, 1Jul1an/wordsearch
 
           plugin_lines: yes
           plugin_lines_sections: base
           plugin_lines_repositories_limit: 4
 
           plugin_calendar: yes
+
           plugin_habits: yes
 
           plugin_repositories: yes
-          plugin_repositories_featured: |
-              1Jul1an/cloud-based-business-intelligence-app,
-              1Jul1an/cloud-based-wms-app,
-              1Jul1an/filesort,
-              1Jul1an/wordsearch
+          plugin_repositories_featured: 1Jul1an/cloud-based-business-intelligence-app, 1Jul1an/cloud-based-wms-app, 1Jul1an/filesort, 1Jul1an/wordsearch
 
           plugin_stargazers: yes
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GEODB_TOKEN }}
-
